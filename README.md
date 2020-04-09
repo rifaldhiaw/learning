@@ -1,0 +1,5 @@
+# Learning
+
+## Javascript
+
+- Basic Syntax
