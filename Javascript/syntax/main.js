@@ -9,15 +9,20 @@ line
 
 // ─── DECLARING VARIABLES: ───────────────────────────────────────────────────────
 
-// var nama;
-// let nama = "user a";
-// const nama = "orang lain";
+// var nama = "budi";
+
+// let nama = "budi";
+// nama = "citra";
+// const umur = 18;
+// umur = 16;
 
 //
 // ─── LOGGING TO THE CONSOLE: ────────────────────────────────────────────────────
 //
-// let x = "logging there";
-// console.log(x);
+
+// let x = "nama saya budi";
+// console.log(17);
+// console.info(x);
 // console.warn(x);
 // console.error(x);
 
@@ -28,13 +33,13 @@ line
 // ----------
 // booleans
 // let x = false;
-// console.log(x)
-// console.log(typeof x)
+// console.log(x);
+// console.log(typeof x);
 
 // numbers
-// let x = 10;
-// console.log(x)
-// console.log(typeof x)
+// let x = 10.5;
+// console.log(x);
+// console.log(typeof x);
 
 // strings
 // let x = 'a';
@@ -52,7 +57,7 @@ line
 // console.log(typeof x);
 
 // symbols
-// bigInts -> new
+// bigInts
 //
 // NON PRIMITIVE:
 // ---------
@@ -63,60 +68,72 @@ line
 // ─── OPERATORS: ─────────────────────────────────────────────────────────────────
 //
 // booleans
-// let x = true && true;
+// let x = false && true;
 // let y = false || true;
-// console.log(y)
+// console.log(x, y);
 
 // numbers
-// let x = 1 * 2;
-// let y = 4 / 2;
-// let z = 4 + 2;
-// let a = 4 - 2;
-// console.log(x, y, z, a)
+// let x = 2 * 3;
+// let y = 9 / 3;
+// let z = 9 + 3;
+// let a = 9 - 3;
+// let b = 10 % 3;
+// console.log(x, y, z, a, b);
 
 // strings
-// let x = "nama" + " saya";
+// let x = "nama " + "saya";
 // console.log(x);
 
 // Comparison
-// let x = 1 > 2;
-// let y = 1 < 2;
-// let z = 1 >= 2;
-// let a = 1 <= 2;
-// let b = 1 === 2;
-// let c = 1 !== 2;
+// let x = 3 < 6;
+// let y = 3 > 6;
+// let z = 3 <= 6;
+// let a = 3 >= 6;
+// let b = 3 === 6;
+// let c = 3 !== 6;
 // console.log(x, y, z, a, b, c);
+
 
 //
 // ─── CONTROL FLOW STATEMENTS: ───────────────────────────────────────────────────
 //
-// let x = 2;
-
-// if (x < 2) {
-//     console.log("< 2")
-// }
-
-// if (x < 2) {
-//     console.log("< 2")
+// if
+// let x = 4;
+// if (x !== 4) {
+//     console.log("disini")
+// } else if (x > 4) {
+//     console.log("> 4")
 // } else {
-//     console.log("lain")
-// }
-
-// if (x < 2) {
-//     console.log("< 2")
-// } else if (x > 2) {
-//     console.log("> 2")
-// } 
-
-// if (x < 2) {
-//     console.log("< 2")
-// } else if (x > 2) {
-//     console.log("> 2")
-// } else {
-//     console.log("lain")
+//     console.log("lainnya")
 // }
 
 // switch
+// let x = 5;
+// switch (x) {
+//     case 1:
+//         console.log(1);
+//         break;
+//     case 2:
+//         console.log(2);
+//         break;
+
+//     default:
+//         console.log("default")
+//         break;
+// }
+
+//
+// ─── LOOPING: ───────────────────────────────────────────────────
+//
+// for
+// for (let x = 0; x < 5; x++) {
+//     console.log(x);
+// }
+
+// do while
+// while
+// for in
+// for of
 
 //
 // ─── ORDINARY FUNCTION DECLARATIONS: ────────────────────────────────────────────
@@ -124,31 +141,34 @@ line
 // let addVar = function add(a, b) {
 //     return a + b;
 // }
-// console.log(addVar(2, 3));
+// console.log(addVar(3, 5));
 
 //
 // ─── ARROW FUNCTION EXPRESSIONS ─────────────────────────────────────────────────
 //
-// let add = (a, b) => a + b;
-// console.log(add(3, 10))
-// console.log(typeof add)
+// let add = a => a + 100;
+// console.log(add(3))
 
 //
 // ─── OBJECTS: ───────────────────────────────────────────────────────────────────
 //
-// let person = {
-//     name: "orang x",
-//     age: 18,
+// let orang = {
+//     nama: "budi",
+//     umur: 18,
+//     sudahMenikah: false,
+//     tanggalLahir: {
+//         tanggal: 18,
+//         bulan: 1,
+//     },
+//     add: (a, b) => a + b
 // };
-// console.log(typeof person.name);
+// console.log(orang.jenisKelamin);
 
 //
 // ─── ARRAY: ─────────────────────────────────────────────────────────────────────
 //
-// let arr = [10, "orang", false];
-// let x = arr[2];
-// console.log(x);
-// console.log(typeof console);
+// let arr = ["budi", 18, false, { tanggal: 18, bulan: 1 }, (a, b) => a + b, [1, 2, 3]];
+// console.log(arr[10]);
 
 //
 // ─── MORE DATA STRUCTURES ───────────────────────────────────────────────────────
